@@ -11,12 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MainController {
     @RequestMapping("/main")
-    public String main(){
-        return "index";
-    }
-
-    @RequestMapping(value="/main2", method = RequestMethod.GET)
-    public String main2(){
-        return "index";
+    public String main() {
+        return "/main/index";
     }
 }
