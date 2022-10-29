@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 
     <head>
+        <script src="https://kit.fontawesome.com/fdb4822e4d.js" crossorigin="anonymous"></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="IAMX, One Page Responsive HTML Resume Template">
@@ -63,9 +64,9 @@
 
                 <div class="social-icons">
                     <ul class="list-inline">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google" onclick="getAuthCode()"></i></a></li>
                         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                         <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     </ul>
@@ -123,7 +124,32 @@
                             <div class="myphoto">
                                 <img src="assets/images/myphoto.jpg" alt="">
                             </div>
+                            <table style="width: 100px;">
+                                <caption>버섯 농장</caption>
+                                <tr style="background-color: aqua;">
+                                    <th>버섯</th>
+                                    <th>티모</th>
+                                </tr>
+                                <tr style="background-color: rgb(120, 145, 145);">
+                                    <th>버섯</th>
+                                    <th>티모</th>
+                                </tr>
+                                <tr style="background-color: aqua;">
+                                    <th>버섯</th>
+                                    <th>티모</th>
+                                </tr>
+                            </table>
                             <ul>
+
+                                <head>
+                                    <title> 로그인 </title>
+                                </head>
+
+                                <body>
+                                    <h2>로그인</h2>
+                                    <p class="login">ㅇㅇ</p>
+                                </body>
+                                <input type="text">
                                 <li><strong>Name:</strong> John Doe</li>
                                 <li><strong>Date of birth:</strong> 05 Dec 1993</li>
                                 <li><strong>Address:</strong> 239/2 Awesome Street, USA</li>
@@ -940,5 +966,23 @@
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
         <script src="assets/js/scripts.js"></script>
     </body>
+    <script>
+        var getAuthCode = function () {
+            const client_id = "542818193892-vf94h6hfmajg6i0o1j0n39jrevofnskb.apps.googleusercontent.com";
+            const client_secret = "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";
+            const redirect_uri = "http://localhost:8080";
+            const response_type = "token";
+            const scope = "profile";
+
+            const loginUrl = "https://accounts.google.com/o/oauth2/v2/auth?" +
+                "response_type=code" +
+                "&client_id=" + client_id +
+                "&scope=profile" +
+                "&redirect_uri=" + redirect_uri;
+
+            window.location.href = loginUrl;
+        };
+
+    </script>
 
     </html>
