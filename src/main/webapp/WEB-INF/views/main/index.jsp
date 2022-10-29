@@ -124,32 +124,7 @@
                             <div class="myphoto">
                                 <img src="assets/images/myphoto.jpg" alt="">
                             </div>
-                            <table style="width: 100px;">
-                                <caption>버섯 농장</caption>
-                                <tr style="background-color: aqua;">
-                                    <th>버섯</th>
-                                    <th>티모</th>
-                                </tr>
-                                <tr style="background-color: rgb(120, 145, 145);">
-                                    <th>버섯</th>
-                                    <th>티모</th>
-                                </tr>
-                                <tr style="background-color: aqua;">
-                                    <th>버섯</th>
-                                    <th>티모</th>
-                                </tr>
-                            </table>
                             <ul>
-
-                                <head>
-                                    <title> 로그인 </title>
-                                </head>
-
-                                <body>
-                                    <h2>로그인</h2>
-                                    <p class="login">ㅇㅇ</p>
-                                </body>
-                                <input type="text">
                                 <li><strong>Name:</strong> John Doe</li>
                                 <li><strong>Date of birth:</strong> 05 Dec 1993</li>
                                 <li><strong>Address:</strong> 239/2 Awesome Street, USA</li>
