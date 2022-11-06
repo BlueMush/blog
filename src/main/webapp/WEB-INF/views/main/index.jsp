@@ -945,7 +945,7 @@
         var getAuthCode = function () {
             const client_id = "542818193892-vf94h6hfmajg6i0o1j0n39jrevofnskb.apps.googleusercontent.com";
             const client_secret = "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";
-            const redirect_uri = "http://localhost:8080";
+            const redirect_uri = "http://localhost:8080/oauth/google";
             const response_type = "token";
             const scope = "profile";
 
@@ -955,9 +955,13 @@
                 "&scope=profile" +
                 "&redirect_uri=" + redirect_uri;
 
-            window.location.href = loginUrl;
+            window.open(loginUrl, "Google AuthCode")
         };
-
+        
+        var getGoogleAuthcode = function(authcode){
+            console.log(authcode);
+        };
+        
     </script>
 
     </html>
