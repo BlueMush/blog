@@ -56,7 +56,7 @@
         <!-- Home Section -->
         <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
             <div class="intro">
-                <div class="intro-sub">당구치ㅎ 블로그</div>
+                <div class="intro-sub">당구치 블로그</div>
                 <h1>Creative <span>Designer</span></h1>
                 <p>I am a fully professional freelance creative User Interface Designer &amp; Developer<br> Involving
                     with
