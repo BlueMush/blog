@@ -14,4 +14,9 @@ public class OAuthController {
     public String googleApi(){
         return "/oauth/google";
     }
+
+    @RequestMapping("/oauth/kakao")
+    public String kakaoApi(){
+        return "/oauth/kakao";
+    }
 }

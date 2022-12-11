@@ -67,7 +67,7 @@
                         <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-google" onclick="getAuthCode()"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble" onclick="getAuthCodeKakao()"></i></a></li>
                         <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     </ul>
                 </div> <!-- /.social-icons -->
@@ -957,11 +957,27 @@
 
             window.open(loginUrl, "Google AuthCode")
         };
+
+        var getAuthCodeKakao = function () {
+            const client_id = "826703f8bb0e22903f8df18375f150fd";
+            const redirect_uri = "http://localhost:8080/oauth/kakao";
+
+            const loginUrl = "https://kauth.kakao.com/oauth/authorize?" +
+                "response_type=code" +
+                "&client_id=" + client_id +
+                "&redirect_uri=" + redirect_uri;
+
+            window.open(loginUrl, "Kakao AuthCode")
+        }
         
         var getGoogleAuthcode = function(authcode){
             console.log(authcode);
         };
-        
+
+        var getKakaoAuthcode = function(authcode){
+            console.log(authcode);
+        };
+
     </script>
 
     </html>
