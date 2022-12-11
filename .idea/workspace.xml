@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0126d8e-dc18-44a5-94fc-4aa41ea71b37" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/oauth/kakao.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/controller/OAuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/controller/OAuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/service/OAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/service/OAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/vo/OAuthVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/example/blog/oauth/vo/OAuthVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/controller/OAuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/controller/OAuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/service/OAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/service/OAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/vo/OAuthVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/blog/oauth/vo/OAuthVo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/controller/OAuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/controller/OAuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/service/OAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/service/OAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/vo/OAuthVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/blog/oauth/vo/OAuthVo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +40,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="blog" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -54,7 +71,7 @@
     "last_opened_file_path": "C:/Users/cheetah/Desktop/새 폴더"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BlogApplication">
     <configuration name="BlogApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.blog.BlogApplication" />
       <module name="blog.main" />
@@ -68,8 +85,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="blog [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.blog [dependencies]" />
         <item itemvalue="Application.BlogApplication" />
       </list>
     </recent_temporary>

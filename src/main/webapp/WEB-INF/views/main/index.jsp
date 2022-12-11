@@ -976,6 +976,12 @@
 
         var getKakaoAuthcode = function(authcode){
             console.log(authcode);
+            $.ajax({
+                url:"/kakao/token",
+                data: {authcode: authcode},
+                method:"POST",
+                dataType:"json"
+            })
         };
 
     </script>
