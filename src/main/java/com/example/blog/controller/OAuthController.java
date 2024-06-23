@@ -26,9 +26,7 @@ public class OAuthController {
     }
 
     @PostMapping("/kakao/token")
-    public String kakaoToken(OAuthDTO oAuthDTO) {
+    public void kakaoToken(OAuthDTO oAuthDTO) {
         oAuthService.getKakaoToken(oAuthDTO);
-
-        return null;
     }
 }

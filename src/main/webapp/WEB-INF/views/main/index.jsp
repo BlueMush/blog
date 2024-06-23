@@ -57,18 +57,11 @@
         <section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
             <div class="intro">
                 <div class="intro-sub">당구치 블로그</div>
-                <h1>Creative <span>Designer</span></h1>
-                <p>I am a fully professional freelance creative User Interface Designer &amp; Developer<br> Involving
-                    with
-                    latest web designing and technologies is a great <br> feel free to contact creative.</p>
 
                 <div class="social-icons">
                     <ul class="list-inline">
-                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-google" onclick="getAuthCode()"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-google" onclick="getAuthCodeGoogle()"></i></a></li>
                         <li><a href="#"><i class="fa fa-dribbble" onclick="getAuthCodeKakao()"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                     </ul>
                 </div> <!-- /.social-icons -->
             </div>
@@ -942,9 +935,8 @@
         <script src="assets/js/scripts.js"></script>
     </body>
     <script>
-        var getAuthCode = function () {
+        var getAuthCodeGoogle = function () {
             const client_id = "542818193892-vf94h6hfmajg6i0o1j0n39jrevofnskb.apps.googleusercontent.com";
-            const client_secret = "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";
             const redirect_uri = "http://localhost:8080/oauth/google";
             const response_type = "token";
             const scope = "profile";
