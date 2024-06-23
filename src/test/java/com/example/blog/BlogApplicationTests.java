@@ -1,9 +1,8 @@
 package com.example.blog;
 
-import com.example.blog.main.controller.MainController;
+import com.example.blog.controller.MainController;
 import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
-import net.bytebuddy.asm.Advice;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -12,9 +11,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @AllArgsConstructor
 class BlogApplicationTests {
 
-	private final MainController mainController;
+    private final MainController mainController;
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 }

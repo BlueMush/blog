@@ -1,0 +1,51 @@
+# 빌드 결과물
+build/
+dist/
+out/
+
+# 의존성 디렉토리
+node_modules/
+vendor/
+*.gradle/
+.mvn/
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 개인 설정 파일
+*.iml
+*.log
+*.swp
+*.bak
+*.tmp
+
+# 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 잠금 파일
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# 빌드 툴 파일
+target/
+*.class
+
+# 로그 파일
+*.log
+
+# 기타
+coverage/
+*.coverage
+*.lcov
